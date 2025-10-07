@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-20 px-4 sm:px-8 md:px-16 py-12 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50 overflow-hidden">
+    <section id="hero" className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-20 px-4 sm:px-8 md:px-16 py-12 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50 overflow-hidden">
 
       {/* Text Section */}
       <motion.div

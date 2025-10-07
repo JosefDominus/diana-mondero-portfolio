@@ -12,9 +12,12 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between relative">
         {/* Left: Name */}
         <div className="flex-shrink-0">
-          <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500 bg-clip-text text-transparent">
+          <a
+            href="#hero"
+            className="text-xl md:text-2xl font-bold bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500 bg-clip-text text-transparent"
+          >
             DIANA
-          </h1>
+          </a>
         </div>
 
         {/* Center: Navigation */}
@@ -58,7 +61,11 @@ export function Header() {
             size="icon"
             className="border-yellow-300 hover:border-yellow-500 hover:bg-yellow-100 transition"
           >
-            <a href="https://www.linkedin.com/in/diana-rose-mondero" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/diana-rose-mondero"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin className="h-4 w-4 text-yellow-600" />
             </a>
           </Button>

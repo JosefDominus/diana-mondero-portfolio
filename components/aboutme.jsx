@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function AboutMe() {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-6 md:px-20 py-16 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50">
+    <section id="about" className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-6 md:px-20 py-16 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50">
       {/* Image Side */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}

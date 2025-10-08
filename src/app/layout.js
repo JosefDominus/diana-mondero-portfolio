@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Diana Mondero Portfolio",
+  title: "Diana Mondero - Virtual Assistant",
   description: "by create next app",
 };
 

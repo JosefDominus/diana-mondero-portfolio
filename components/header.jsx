@@ -24,10 +24,11 @@ export function Header() {
         <div className="hidden md:flex gap-8 text-sm font-medium absolute left-1/2 transform -translate-x-1/2">
           {[
             { href: "#about", label: "About" },
-            { href: "#experience", label: "Experience" },
-            { href: "#projects", label: "Projects" },
-            { href: "#skills", label: "Skills" },
             { href: "#education", label: "Education" },
+            { href: "#experience", label: "Experience" },
+            { href: "#sampleworks", label: "Sample Works" },
+            { href: "#skills", label: "Skills" },
+            { href: "#toolset", label: "Toolset" },
             { href: "#contact", label: "Contact" },
           ].map(({ href, label }) => (
             <a

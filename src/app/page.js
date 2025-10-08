@@ -1,8 +1,10 @@
 "use client";
 
 import { AboutMe } from "../../components/aboutme";
+import { Contact } from "../../components/contact";
 import { Education } from "../../components/education";
 import { Experience } from "../../components/experience";
+import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import { Hero } from "../../components/hero";
 import { SampleWorks } from "../../components/sampleworks";
@@ -30,6 +32,8 @@ export default function Home() {
       <Experience />
       <SampleWorks />
       <Toolset />
+      <Contact />
+      <Footer />
     </main>
   );
 }

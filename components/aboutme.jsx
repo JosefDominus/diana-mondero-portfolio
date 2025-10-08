@@ -51,7 +51,7 @@ export function AboutMe() {
             className="absolute inset-0 rounded-2xl bg-gradient-to-r from-yellow-200 via-amber-200 to-orange-200 blur-2xl opacity-30"
           />
           <Image
-            src="/heropicture-removebg-preview.png"
+            src="/aboutme1.jpg"
             alt="Josef Valdes Portrait"
             fill
             className="object-contain relative z-10"

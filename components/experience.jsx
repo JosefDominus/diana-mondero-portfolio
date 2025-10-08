@@ -25,46 +25,45 @@ export function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50"
+      className="min-h-screen flex flex-col items-center justify-center px-6 sm:px-10 md:px-20 py-12 sm:py-16 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50"
     >
       {/* Section Title */}
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         viewport={{ once: true }}
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500 bg-clip-text text-transparent mb-16 text-center break-words max-w-full"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500 bg-clip-text text-transparent mb-12 sm:mb-16 text-center break-words max-w-full"
       >
         My Experience
       </motion.h2>
 
       {/* Experience Cards */}
-      <div className="grid gap-8 md:grid-cols-2 max-w-5xl w-full">
+      <div className="flex flex-col gap-6 w-full max-w-5xl">
         {experiences.map((exp, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0, transition: { duration: 0.8, delay: index * 0.2 } }}
             viewport={{ once: true }}
             whileHover={{
-              scale: 1.05,
+              scale: 1.03,
               boxShadow: "0 0 30px rgba(255, 200, 0, 0.8), 0 0 40px rgba(255, 180, 0, 0.6)",
+              transition: { duration: 0.3 },
             }}
-            className="h-full"
+            className="w-full"
           >
             <Card
-              className="relative flex flex-col h-full overflow-hidden shadow-lg border-none bg-gradient-to-r from-yellow-200 via-amber-200 to-orange-200 text-black"
+              className="flex flex-col h-full overflow-hidden shadow-lg border-none bg-gradient-to-r from-yellow-200 via-amber-200 to-orange-200 text-black"
               style={{
                 boxShadow: "0 0 10px rgba(255, 200, 0, 0.3), 0 0 15px rgba(255, 180, 0, 0.2)",
               }}
             >
-              <CardHeader className="flex items-center gap-3 border-b border-black/20 pb-4">
+              <CardHeader className="flex flex-col sm:flex-row items-center sm:items-start gap-3 border-b border-black/20 pb-4">
                 <div className="relative flex items-center justify-center w-12 h-12 rounded-full bg-white/30 shadow-md">
                   <Briefcase size={22} className="relative z-10 text-black" />
                 </div>
-                <div>
-                  <CardTitle className="text-xl font-semibold text-black">
-                    {exp.title}
-                  </CardTitle>
+                <div className="text-center sm:text-left">
+                  <CardTitle className="text-xl font-semibold text-black">{exp.title}</CardTitle>
                   <p className="text-sm text-black/90">
                     <span className="font-medium">{exp.company}</span> — {exp.date}
                   </p>

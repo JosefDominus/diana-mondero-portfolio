@@ -29,11 +29,11 @@ export function Toolset() {
     {
       title: "Social Media Management",
       tools: [
-        { name: "Facebook", img: "/logos/msword.png" },
-        { name: "Meta Business Suite", img: "/logos/excel.png" },
-        { name: "Instagram", img: "/logos/googledocs.png" },
-        { name: "X", img: "/logos/googlesheets.png" },
-        { name: "Tiktok", img: "/logos/googleforms.png" },
+        { name: "Facebook", img: "/logos/facebook.png" },
+        { name: "Meta Business Suite", img: "/logos/meta.png" },
+        { name: "Instagram", img: "/logos/instagram.png" },
+        { name: "X", img: "/logos/x.png" },
+        { name: "Tiktok", img: "/logos/tiktok.png" },
       ],
     },
     {

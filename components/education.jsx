@@ -25,32 +25,32 @@ export function Education() {
   return (
     <section
       id="education"
-      className="min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50"
+      className="min-h-screen flex flex-col items-center justify-center px-6 sm:px-10 md:px-20 py-12 sm:py-16 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50"
     >
       {/* Section Title */}
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         viewport={{ once: true }}
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500 bg-clip-text text-transparent mb-16 text-center break-words max-w-full"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500 bg-clip-text text-transparent mb-12 sm:mb-16 text-center break-words max-w-full"
       >
         Educational Background
       </motion.h2>
 
       {/* Education Cards */}
-      <div className="flex flex-col gap-8 w-full max-w-3xl">
+      <div className="flex flex-col md:flex-row md:flex-wrap gap-6 w-full max-w-5xl">
         {educationList.map((edu, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0, transition: { duration: 0.8, delay: index * 0.2 } }}
             viewport={{ once: true }}
             whileHover={{
-              scale: 1.05,
-              boxShadow:
-                "0 0 30px rgba(255, 200, 0, 0.8), 0 0 40px rgba(255, 180, 0, 0.6)",
+              scale: 1.03,
+              boxShadow: "0 0 30px rgba(255, 200, 0, 0.8), 0 0 40px rgba(255, 180, 0, 0.6)",
+              transition: { duration: 0.3 },
             }}
-            className="h-full"
+            className="w-full md:w-[48%] lg:w-[45%]"
           >
             <Card
               className="relative flex flex-col h-full overflow-hidden shadow-lg border-none bg-gradient-to-r from-yellow-200 via-amber-200 to-orange-200 text-black"
@@ -68,17 +68,17 @@ export function Education() {
 
                 {/* Text */}
                 <div className="text-center">
-                  <CardTitle className="text-xl font-semibold text-black">
+                  <CardTitle className="text-lg sm:text-xl font-semibold text-black">
                     {edu.degree}
                   </CardTitle>
-                  <p className="text-sm text-black/90">
+                  <p className="text-sm sm:text-base text-black/90">
                     <span className="font-medium">{edu.school}</span> — {edu.date}
                   </p>
                 </div>
               </CardHeader>
 
               <CardContent className="pt-4 flex-1">
-                <p className="text-black/90 leading-relaxed">{edu.description}</p>
+                <p className="text-sm sm:text-base md:text-lg text-black/90 leading-relaxed">{edu.description}</p>
               </CardContent>
             </Card>
           </motion.div>

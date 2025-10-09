@@ -52,7 +52,7 @@ export function SampleWorks() {
       { name: "Promo Video 6", src: "/SampleWorks/Video6.mp4" },
     ],
     description:
-      "A collection of promotional and creative videos edited using Adobe Premiere Pro and CapCut, showcasing storytelling and visual design.",
+      "A collection of promotional and creative videos edited using CapCut, showcasing storytelling and visual design.",
   };
 
   const [lightbox, setLightbox] = useState({ items: [], index: null, type: "image" });

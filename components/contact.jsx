@@ -129,22 +129,6 @@ export function Contact() {
                 </p>
                 <p className="text-sm text-black/70">📧 donellevaldes12@yahoo.com</p>
               </div>
-              <div>
-                <p className="font-semibold text-black">Mr. John Reyes</p>
-                <p className="text-sm text-black/80">
-                  IT Supervisor, Diversity in Technology
-                </p>
-                <p className="text-sm text-black/70">📧 john.reyes@dit.com</p>
-              </div>
-              <div>
-                <p className="font-semibold text-black">Ms. Clara Dela Cruz</p>
-                <p className="text-sm text-black/80">
-                  HR Manager, GFI Global Financial Impact
-                </p>
-                <p className="text-sm text-black/70">
-                  📧 clara.delacruz@gfi.com
-                </p>
-              </div>
             </CardContent>
           </Card>
         </motion.div>

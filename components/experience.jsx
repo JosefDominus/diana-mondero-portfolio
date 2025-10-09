@@ -22,14 +22,34 @@ export function Experience() {
         "Microsoft Office",
         "Microsoft Outlook",
         "Zoom",
+        "AI Assisted Tools",
       ],
     },
     {
-      title: "AI Executive Coordinator | Virtual Assistant",
-      company: "GFI Global Financial Impact",
+      title: "AI Executive Coordinator",
+      company: "Diversity in Technology",
       date: "May 1, 2025 – August 31, 2025",
       description:
         "Designed and produced branded visuals and promotional materials using Canva, created and edited instructional videos with original scripts, and generated AI-based merchandise concepts. Managed the organization’s Facebook page, including content planning, posting, and scheduling, and boosted engagement by producing and editing compelling social media Reels with CapCut.",
+      software: [
+        "Canva",
+        "CapCut",
+        "Meta Business Suite",
+        "Microsoft Teams",
+        "Asana",
+        "Google Workspace",
+        "Microsoft Office",
+        "Microsoft Outlook",
+        "Zoom",
+        "AI Assisted Tools",
+      ],
+    },
+    {
+      title: "Virtual Assistant",
+      company: "GFI Global Financial Impact",
+      date: "May 1, 2025 – August 31, 2025",
+      description:
+        "Oversaw agent licensing and onboarding to ensure compliance with contracting requirements. Managed documentation, records, and licensing processes to streamline onboarding. Sent welcome emails, maintained communication with new agents, and handled Excel and administrative tasks. Also supported marketing efforts by creating event flyers.",
       software: [
         "Canva",
         "Gmail",
@@ -39,6 +59,7 @@ export function Experience() {
         "Calendly",
         "Microsoft Excel",
         "Zoom",
+        "AI Assisted Tools",
       ],
     },
   ];

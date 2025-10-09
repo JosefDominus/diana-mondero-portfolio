@@ -47,7 +47,7 @@ export function Experience() {
     {
       title: "Virtual Assistant",
       company: "GFI Global Financial Impact",
-      date: "May 1, 2025 – August 31, 2025",
+      date: "July 15, 2025 - September 25, 2025",
       description:
         "Oversaw agent licensing and onboarding to ensure compliance with contracting requirements. Managed documentation, records, and licensing processes to streamline onboarding. Sent welcome emails, maintained communication with new agents, and handled Excel and administrative tasks. Also supported marketing efforts by creating event flyers.",
       software: [

@@ -1,5 +1,7 @@
 "use client";
 
+import Head from "next/head";
+
 import { AboutMe } from "../../components/aboutme";
 import { Contact } from "../../components/contact";
 import { Education } from "../../components/education";

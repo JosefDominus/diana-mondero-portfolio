@@ -173,7 +173,7 @@ export function Contact() {
               variant="outline"
               className="rounded-full border-black/30 text-black hover:bg-yellow-100 hover:border-yellow-400 transition"
             >
-              <a href="/DRESM-RESUME.pdf" download>
+              <a href="/DRESM-CV.pdf" download>
                 <div className="flex items-center gap-2 justify-center">
                   <FileText size={18} /> Download My CV
                 </div>

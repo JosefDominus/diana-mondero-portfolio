@@ -6,26 +6,25 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export function Experience() {
   const experiences = [
-    {
-      title: "Admission Counsellor",
-      company: "Diversity in Technology",
-      date: "February 10, 2024 – April 30, 2025",
+      {
+      title: "Virtual Assistant",
+      company: "GFI Global Financial Impact",
+      date: "July 15, 2025 - September 25, 2025",
       description:
-        "Reviewed applications, guided students through enrollment, and maintained accurate records. Provided professional support via chat and email, managed documentation, handled internal communications, and performed administrative tasks to ensure efficient, smooth admissions operations.",
+        "Oversaw agent licensing and onboarding to ensure compliance with contracting requirements. Managed documentation, records, and licensing processes to streamline onboarding. Sent welcome emails, maintained communication with new agents, and handled Excel and administrative tasks. Also supported marketing efforts by creating event flyers.",
       software: [
         "Canva",
-        "CapCut",
-        "Meta Business Suite",
-        "Microsoft Teams",
-        "Asana",
-        "Google Workspace",
-        "Microsoft Office",
-        "Microsoft Outlook",
+        "Gmail",
+        "WhatsApp",
+        "Telegram",
+        "Notion",
+        "Calendly",
+        "Microsoft Excel",
         "Zoom",
         "AI Assisted Tools",
       ],
     },
-    {
+        {
       title: "AI Executive Coordinator",
       company: "Diversity in Technology",
       date: "May 1, 2025 – August 31, 2025",
@@ -45,19 +44,20 @@ export function Experience() {
       ],
     },
     {
-      title: "Virtual Assistant",
-      company: "GFI Global Financial Impact",
-      date: "July 15, 2025 - September 25, 2025",
+      title: "Admission Counsellor",
+      company: "Diversity in Technology",
+      date: "February 10, 2024 – April 30, 2025",
       description:
-        "Oversaw agent licensing and onboarding to ensure compliance with contracting requirements. Managed documentation, records, and licensing processes to streamline onboarding. Sent welcome emails, maintained communication with new agents, and handled Excel and administrative tasks. Also supported marketing efforts by creating event flyers.",
+        "Reviewed applications, guided students through enrollment, and maintained accurate records. Provided professional support via chat and email, managed documentation, handled internal communications, and performed administrative tasks to ensure efficient, smooth admissions operations.",
       software: [
         "Canva",
-        "Gmail",
-        "WhatsApp",
-        "Telegram",
-        "Notion",
-        "Calendly",
-        "Microsoft Excel",
+        "CapCut",
+        "Meta Business Suite",
+        "Microsoft Teams",
+        "Asana",
+        "Google Workspace",
+        "Microsoft Office",
+        "Microsoft Outlook",
         "Zoom",
         "AI Assisted Tools",
       ],

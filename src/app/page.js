@@ -8,6 +8,7 @@ import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import { Hero } from "../../components/hero";
 import { SampleWorks } from "../../components/sampleworks";
+import { Skills } from "../../components/skills";
 import { Toolset } from "../../components/toolset";
 
 function MyApp({ Component, pageProps }) {
@@ -31,6 +32,7 @@ export default function Home() {
       <Education />
       <Experience />
       <SampleWorks />
+      <Skills />
       <Toolset />
       <Contact />
       <Footer />

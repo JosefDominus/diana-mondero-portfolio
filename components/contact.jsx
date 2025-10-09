@@ -123,11 +123,11 @@ export function Contact() {
 
             <CardContent className="pt-4 space-y-4">
               <div>
-                <p className="font-semibold text-black">Engr. Maria Santos</p>
+                <p className="font-semibold text-black">Donelle Stella Maris Valdes-Mariano</p>
                 <p className="text-sm text-black/80">
-                  Dean, ACLC College of Manila
+                  Virtual Assistant, GFI Global Financial Impact
                 </p>
-                <p className="text-sm text-black/70">📧 maria.santos@aclc.edu.ph</p>
+                <p className="text-sm text-black/70">📧 donellevaldes12@yahoo.com</p>
               </div>
               <div>
                 <p className="font-semibold text-black">Mr. John Reyes</p>

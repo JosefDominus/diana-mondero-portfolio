@@ -30,16 +30,24 @@ export function Hero() {
         </p>
 
         <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-8 sm:mt-10">
-          <Button className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base md:text-lg bg-gradient-to-r from-yellow-400 via-amber-400 to-orange-400 text-white font-semibold shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-200">
-            View My Work
-          </Button>
-          <Button
-            variant="outline"
-            className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base md:text-lg border-yellow-400 text-yellow-600 hover:bg-yellow-100 hover:border-amber-500 transition-colors"
-          >
-            Contact Me
-          </Button>
-        </div>
+  {/* View My Work Button */}
+  <a href="#sampleworks" className="inline-block">
+    <Button className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base md:text-lg bg-gradient-to-r from-yellow-400 via-amber-400 to-orange-400 text-white font-semibold shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-200">
+      View My Work
+    </Button>
+  </a>
+
+  {/* Contact Me Button */}
+  <a href="#contact" className="inline-block">
+    <Button
+      variant="outline"
+      className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base md:text-lg border-yellow-400 text-yellow-600 hover:bg-yellow-100 hover:border-amber-500 transition-colors"
+    >
+      Contact Me
+    </Button>
+  </a>
+</div>
+
       </motion.div>
 
       {/* Photo Section */}

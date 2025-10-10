@@ -118,6 +118,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* --- FIX: Prevent Calendly from disabling scroll --- */
+body {
+  overflow: auto !important;
+  position: static !important;
+}
+
+
 
 @layer base {
   * {

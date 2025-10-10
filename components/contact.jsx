@@ -9,6 +9,7 @@ import {
   MapPin,
   Linkedin,
   Facebook,
+  Calendar,
 } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -17,7 +18,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50"
+      className="min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-12 bg-gradient-to-b from-yellow-50 via-amber-100 to-orange-50 overflow-hidden"
     >
       {/* Section Title */}
       <motion.h2
@@ -123,11 +124,15 @@ export function Contact() {
 
             <CardContent className="pt-4 space-y-4">
               <div>
-                <p className="font-semibold text-black">Donelle Stella Maris Valdes-Mariano</p>
+                <p className="font-semibold text-black">
+                  Donelle Stella Maris Valdes-Mariano
+                </p>
                 <p className="text-sm text-black/80">
                   Virtual Assistant, GFI Global Financial Impact
                 </p>
-                <p className="text-sm text-black/70">📧 donellevaldes12@yahoo.com</p>
+                <p className="text-sm text-black/70">
+                  📧 donellevaldes12@yahoo.com
+                </p>
               </div>
             </CardContent>
           </Card>
@@ -140,7 +145,7 @@ export function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}
         viewport={{ once: true }}
-        className="max-w-3xl w-full mt-10 flex justify-center"
+        className="max-w-3xl w-full mt-8 flex justify-center mb-0"
       >
         <Card className="relative flex flex-col items-center justify-center shadow-lg border-none hover:shadow-amber-400/40 hover:scale-[1.02] transition-all duration-300 bg-gradient-to-r from-yellow-200 via-amber-200 to-orange-200 text-black py-10 px-8 rounded-2xl">
           <CardHeader className="w-full text-center mb-4">
@@ -150,13 +155,25 @@ export function Contact() {
             <p className="text-sm text-black/80 max-w-2xl mx-auto text-justify">
               Let’s stay in touch — feel free to reach out anytime for
               collaboration, project discussions, or professional inquiries. You
-              can contact me directly via email or download my CV below to learn
-              more about my experience and skills. I’m always open to new
-              opportunities and meaningful connections.
+              can contact me directly via email, download my CV, or schedule a
+              discovery call below.
             </p>
           </CardHeader>
 
-          <CardContent className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">
+          <CardContent className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center items-center mt-6">
+            {/* Book a Discovery Call Button */}
+            <Button className="rounded-full bg-gradient-to-r from-orange-400 via-amber-500 to-yellow-400 text-white font-semibold hover:scale-105 hover:shadow-lg transition-transform duration-200">
+              <a
+                href="https://calendly.com/dianavaldes6621/discovery-calls"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="flex items-center gap-2 justify-center">
+                  <Calendar size={18} /> Book a Calendly Discovery Call
+                </div>
+              </a>
+            </Button>
+
             {/* Send Email Button */}
             <Button className="rounded-full bg-gradient-to-r from-yellow-400 to-orange-400 text-white hover:from-yellow-500 hover:to-orange-500 transition-all">
               <a
